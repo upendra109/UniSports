@@ -1,0 +1,7 @@
+.home_container {
+  padding: 5%;
+  background-color: white;
+  height: max-content;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}

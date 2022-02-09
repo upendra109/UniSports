@@ -1,0 +1,124 @@
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  border-bottom: 1px solid rgb(139, 136, 136);
+  padding: 10px;
+}
+
+.left {
+  width: 20%;
+  color: #737578;
+  align-items: center;
+  display: flex;
+  height: inherit;
+  flex: 0.5;
+}
+
+.left > a > div {
+  position: relative;
+  left: 50px;
+  color: #737578;
+  transition: all 350ms ease;
+  cursor: pointer;
+}
+
+.left > a > div:hover {
+  color: white;
+}
+
+.panel {
+  width: 40%;
+  display: flex;
+  margin: 0 20px;
+  justify-content: center;
+}
+
+.panel > a {
+  margin-top: 15px;
+}
+
+.panel > a > span {
+  margin: 25px;
+  transition: all 350ms ease;
+}
+
+.panel > span:nth-child(1) {
+  margin-left: -80px;
+}
+
+.panel > a > span:hover {
+  color: white;
+}
+
+.logo {
+  width: 100px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.panel {
+  color: #737578;
+}
+
+.panel > span:hover {
+  cursor: pointer;
+}
+
+.auth {
+  width: 15%;
+}
+
+.login {
+  margin-left: 20px;
+  margin-right: 15px;
+  color: #737578;
+  margin-top: 25px;
+  transition: all 350ms ease;
+  cursor: pointer;
+}
+.logout {
+  position: absolute;
+  top: 22px;
+
+  transition: all 350ms ease;
+  color: #737578;
+}
+
+.login:hover,
+.logout:hover {
+  color: white;
+}
+
+.registerr {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  background-color: black;
+  color: #737578;
+  border: 1px solid #737578;
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+
+.registerr:hover {
+  background-color: white;
+  color: black;
+}
+
+.login.mode {
+  transform: rotate(10deg);
+}
+
+.basket {
+  width: 10%;
+  margin-top: 18px;
+  color: aliceblue;
+}
+
+.basket > span {
+  margin-top: -5px;
+  margin-left: 20px;
+  color: white;
+}

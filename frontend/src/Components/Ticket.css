@@ -1,0 +1,70 @@
+.ticket {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 24px;
+  background-color: white;
+  margin: 15px;
+  transition: all 350ms ease;
+  border: 1px solid #737678;
+  padding: 5px;
+}
+
+.ticket:hover {
+  transform: translateY(-5%);
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 24px;
+  margin: 1px;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+  border-radius: 24px;
+  margin: 1px;
+}
+
+.second > div:nth-child(2) {
+  margin: auto;
+}
+
+img {
+  width: 150px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.third {
+  display: flex;
+  justify-content: center;
+  border-radius: 24px;
+  margin: 1px;
+}
+
+.fourth {
+  margin: 1px;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+}
+.fourth > button {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 15px;
+  transition: all 350ms ease;
+  font-size: medium;
+  border: 1px solid #737578;
+  font-weight: bold;
+}
+
+.fourth > button:hover {
+  cursor: pointer;
+  background-color: yellow;
+}

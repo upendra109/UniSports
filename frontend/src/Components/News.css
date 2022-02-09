@@ -1,0 +1,8 @@
+.news_container {
+  background-color: black;
+  height: max-content;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  grid-column-gap: 5px;
+}
